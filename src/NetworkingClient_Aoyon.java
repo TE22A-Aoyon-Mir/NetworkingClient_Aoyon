@@ -8,7 +8,7 @@ public class NetworkingClient_Aoyon {
         Socket client = null;
 
         // Default port number we are going to use
-        int portnumber = 1234;
+        int portnumber = 1026;
         if (args.length >= 1) {
             portnumber = Integer.parseInt(args[0]);
         }
